@@ -1,6 +1,5 @@
 # display_panel = [None] * 40 <-- debug
 display_panel = [" "] * 40
-doPrint = 0
 
 def main():
 	inputString = input("Enter a string of 40 characters: ")
@@ -20,10 +19,10 @@ def main():
 		display_panel[index] = inputString[counter]
 		counter += 1
 
+	
 	# print("/{}/".format("".join(str(display_panel)))) <-- debug
 	print("/{}/".format("".join(display_panel)))
 	
 
 # Call function / run
-while doPrint < 1:
-	main()
+main()
