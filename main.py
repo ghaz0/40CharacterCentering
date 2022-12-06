@@ -2,7 +2,7 @@
 display_panel = [" "] * 40
 
 def main():
-	inputString = input("Enter a string of 40 characters: ")
+	inputString = input("Enter a string of, at most, 40 characters: ")
 	if len(inputString) > 40 or len(inputString) == 0:
 		print("Error: String too long or too short!")
 		return
