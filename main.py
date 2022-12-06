@@ -19,7 +19,6 @@ def main():
 		display_panel[index] = inputString[counter]
 		counter += 1
 
-	
 	# print("/{}/".format("".join(str(display_panel)))) <-- debug
 	print("/{}/".format("".join(display_panel)))
 	
