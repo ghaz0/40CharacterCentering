@@ -2,6 +2,7 @@
 display_panel = [" "] * 40
 
 def main():
+	# loop exists in main for simplicity
 	doLoop = True
 	while(doLoop):
 		inputString = input("Enter a string of 40 characters: ")
